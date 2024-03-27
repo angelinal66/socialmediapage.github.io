@@ -1,0 +1,116 @@
+body{
+  background-color: beige;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.marcey{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #ad01ad;
+  padding: 5px;
+}
+
+.card{
+  display: flex;
+  justify-content: flex-start;
+}
+h2{
+  margin-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+button{
+  margin-top: 5%;
+  background-color:#0356fc;
+  width: 5%;
+  height: 5%;
+  color: white;
+  border: none;
+  padding: 0.5%;
+  border-radius: 5%;
+}
+
+.count{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10%;
+}
+
+h3{
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.bio{
+  width: 600px;
+  height: 500px;
+}
+
+.bio2{
+  margin-left: 38%;
+}
+
+.logo{
+  width: 200px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 50%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.name{
+  font-size: 20px;
+}
+.pb{
+  width: 100px;
+  height: 100px;
+}
